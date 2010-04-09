@@ -1,0 +1,134 @@
+body { text-align: center; background-color: #ffffff; }
+		
+img { border: 0px; }
+	
+div.main h1.main-header { border: 2px solid black; border-bottom: 4px solid black; margin: 0px; }
+
+div.main div.main-body { border: 2px solid #7296D0; border-top: 5px solid #7296D0; margin: 0px; }
+
+div.main div.main-body div.main-content { width: 607px; margin: 0px; border-left: 6px solid #7296D0; height: 875px; }
+div.main div.main-body div.main-content h4.content-title { text-align: center; font: 18px verdana, sans-serif; margin: 3px; color: #3D66A7; }
+		
+/* hack for Mozilla because of IE's horrible rendering engine */
+div.main div.main-body div.main-content[class="main-content"] { margin-left: 146px; border-left: 6px solid #7296D0; width: 605px; padding-bottom: 1px; height: auto; min-height: 900px;}
+div.main div.main-body div.main-content h3.content-pagination { margin: 0px; border-bottom: 2px solid #7296D0; font: 11px arial, sans-serif; text-align: left; padding: 0px; height: 50px; background-color: #ffffff;}
+div.main div.main-body div.main-content h3.content-pagination a { font: bold 11px arial, sans-serif; color: #22365e; }
+div.main div.main-body div.main-content h3.content-pagination a:hover { font: bold 11px arial, sans-serif; color: #486090;  }
+div.main div.main-body div.main-content p { text-align: left; margin: 0px 0px 10px 15px; width: 95%; }
+
+div.main div.main-body div.main-content h3.content-pagination p.contact { float: right; width: 200px; border-left: 2px solid #7296D0; height: 50px; margin: 0px 0px 0px 0px; padding: 5px 0px 0px 5px; background: repeat-y url('../images/home/contact_us_gradient.jpg'); background-color: #ffffff; font: 11px verdana, sans-serif; text-align: center;}
+div.main div.main-body div.main-content h3.content-pagination p.contact[class="contact"] { height: 45px; }
+div.main div.main-body div.main-content h3.content-pagination p.location { margin: 0px; padding: 8px 0px 3px 7px; height: 15px; }
+div.main div.main-body div.main-content ul { text-align: left; }
+div.main div.main-body div.main-content ul li { text-align: left; margin-left: 5px; }
+div.main div.main-body div.main-content ul li.a { margin-left: 15px; }
+div.main div.main-body div.main-content table { text-align: left;  }
+div.main div.main-body div.main-content p img { float: right; margin: 3px; }
+div.main div.main-body div.main-content p img#home { float: none; }
+div.main div.main-body div.main-content p a { color: #203B89; }
+div.main div.main-body div.main-content p a:hover { color: #486090; }
+div.main div.main-body div.main-content p.error { text-align: left; margin: 0px 0px 10px 15px; padding: 5px; }
+div.main div.main-body div.main-content p.error span { display: block; color: #ff0000; font-weight: bold; }
+div.main div.main-body div.main-content p.error em { font-family: monospace; }
+
+div.main div.main-body div.main-navigation { float: left; width: 146px; margin: 0px; text-align: left; }
+div.main div.main-body div.main-navigation p { font: 11px arial, sans-serif; padding: 0px 0px 0px 0px; margin: 3px 3px 15px 3px; }
+div.main div.main-body div.main-navigation a { display: block; font: 11px verdana, sans-serif; color: #22365E; padding: 5px 0px 5px 3px; background-color: #FAFAFA; border-bottom: 1px dashed #D2D2D2; }
+div.main div.main-body div.main-navigation a:hover { color: #486090; background-image: url('../images/menu/menu_item_background.jpg'); background-position: right; background-repeat: no-repeat; }
+div.main div.main-body div.main-navigation form { text-align: right; margin: 0px; padding-right: 7px; font: 11px verdana, sans-serif; font-variant: small-caps; }
+div.main div.main-body div.main-navigation form input { font: 11px verdana, sans-serif; text-align: right; }
+div.main div.main-body div.main-navigation h2 { background-color: #ffffff; background-image: url('../images/menu/title_background.jpg'); background-repeat: repeat-x; font: bold italic 14px arial, sans-serif; color: #1C315A; height: 20px; padding: 2px 0px 0px 3px; margin: 0px 0px 5px 0px; border-bottom: 2px solid #7296d0; }
+div.main div.main-body div.main-navigation h2#first { margin-bottom: 0px; }
+div.main div.main-body div.main-navigation a#last { border-bottom: 0px; margin-bottom: 5px; }
+div.main div.main-body div.main-navigation a#sub { background: #ffffff; border: 0px; text-align: right; padding: 0px; margin: 4px 0px 4px 0px; width: 100%; }
+div.main div.main-body div.main-navigation p { text-align: center; }
+div.main div.main-body div.main-navigation p img { margin: 5px 0px 5px 0px; }
+		
+table.event-calendar tr.calendar-title td.title-id { width: 3%; }
+table.event-calendar tr.calendar-title td.title-event { width: 30%; }
+table.event-calendar tr.calendar-title td.title-date { width: 15%; }
+table.event-calendar tr.calendar-title td.title-time { width: 20%; }
+table.event-calendar tr.calendar-title td.title-volunteers { width: 10%; }
+table.event-calendar tr.calendar-title td.title-edit { width: 10%; }
+table.event-calendar tr.calendar-title td.title-delete { width: 10%; }
+table.event-calendar tr.calendar-title td.title-register { width: 5%; }
+table.event-calendar td.event-id, td.event-date, td.event-time, td.event-location, td.event-volunteers, td.event-edit, td.event-delete, td.event-register { text-align: center; }
+table.event-calendar td.event-title { padding: 3px; text-align: center; }
+table.event-calendar td a { font-weight: bold; }
+table.event-calendar td a:hover { font-weight: bold; }
+
+table.control-panel td { padding-left: 5px; }
+div.main div.main-body div.main-content table.control-panel td p { margin-left: 0px;}	/* I don't know why I have to have all the div stuff there. */
+
+table.newsletter td { vertical-align: top; padding: 5px;}
+
+table.report td { border: 1px solid black; padding: 3px; }
+table.report td.item { width: 30%; }
+table.report td.title-id, td.title-event, td.title-date, td.title-time { text-align: center; font-weight: bold; }
+		
+span.small-caps { font-variant: small-caps; font-weight: bold; }
+span.indent { display: block; padding-left: 10px; margin-left: 10px; }
+span.indent .text { vertical-align: bottom; width: 95%; }
+
+form { margin-top: 0px; }
+
+input.btn { background-color: #c7cde2; color: #000000; }
+
+div.nav-bit { border: 1px solid black; height: 16px; color: #ffffff; font: 7pt verdana, sans-serif; background-color: #96B9D1; float: left; }
+div.nav-bit span.page { float: left; padding: 2px 3px 0px 3px;}
+div.nav-bit a { color: #ffffff; }
+div.nav-bit a.num { border-left: 1px solid black; height: 16px; width: 16px; text-align: center; float: left; padding-left: 0px; padding-top: 2px; background-color: #5983a0; }
+div.nav-bit a.num[class="num"] { height: 14px; }
+div.nav-bit #last { width: 40px; }
+
+table.newsletter td.volume { text-align: right; }
+
+div.popup { position: absolute; width: 300px; }
+
+table.popup td.value { width: 150px; padding-left: 5px; background-color: #FFFED8; }
+table.popup td.ub { vertical-align: top; }
+table.popup td.lb { }
+table.popup td.ul, td.ur { width: 26px; height: 23px; }
+table.popup td.ll, td.lr { width: 26px; height: 21px; }
+table.popup td.x-button { text-align: right; background-color: #FFFED8; }
+table.popup td.name {  background-color: #FFFED8; text-align: center; font-weight: bold; font-size: 14px; }
+
+table.invoice td.invoice-header { text-align: center; }
+table.invoice td.invoice-region { font-size: 24px; font-weight: bold; text-align: center; }
+table.invoice td.invoice-division { text-align: center; height: 100px; }
+table.invoice td.invoice-part { width: 50%; text-align: right; height: 50px; }
+table.invoice td.invoice-date, td.invoice-quantity, td.invoice-event, td.invoice-cost, td.invoice-total { width: 10%; border: 1px solid black; padding: 3px; font-weight: bold; text-align: center; }
+table.invoice td.invoice-description { width: 50%; border: 1px solid black; padding: 3px; font-weight: bold; }
+table.invoice td.invoice-balance { border: 1px solid black; text-align: center; font-weight: bold; }
+table.invoice tr.invoice-item td { border: 1px solid black; padding: 3px; text-align: center;}
+table.invoice td.invoice-cccs { text-align: left; }
+table.invoice td.invoice-mmi { text-align: right; }
+table.invoice td.invoice-footer { text-align: center; height: 75px;}
+table.invoice td.invoice-payments { height: 150px; }
+
+		
+table.intro { border-collapse: collapse; font: 10px verdana, sans-serif; width: 601px; margin-bottom: 20px; }
+table.intro[class="intro"] { width: 604px; }
+table.intro td { padding: 5px; vertical-align: top; }
+table.intro td h4 { font: bold 12px verdana, sans-serif; color: white; margin: 0px 0px 7px 0px; height: 20px; padding: 5px 0px 0px 5px;  }
+table.intro td a { font: 10px verdana, sans-serif; color: #2E2E9A; }
+table.intro td a:hover { font: 10px verdana, sans-serif; color: #6666DC; }
+table.intro ul { padding: 0px; margin: 0px 0px 0px 20px; }
+
+table.intro td.upcoming { background-color: #C3D2EA; width: 201px; }
+table.intro td.upcoming h4 { background-color: #9FB4D5; }
+
+table.intro td.volunteer { background-color: #A0DBAB; width: 201px; }
+table.intro td.volunteer-img { background-color: #A0DBAB; height: 102px; vertical-align: bottom; }
+table.intro td.volunteer h4 { background-color: #82C58E; }
+
+table.intro td.resources { background-color: #F7D494; width: 202px; }
+table.intro td.resources h4 { background-color: #D2B072; }
+
+form.viewevents { }
+form.viewevents p { }
+form.viewevents p#events { font: bold 10px verdana, sans-serif; text-align: right; }
+form.viewevents input { font: 10px verdana, sans-serif; }
+form.viewevents select { font: 10px verdana, sans-serif; }
+form.viewevents table { font: bold 10px verdana, sans-serif; width: 98%; margin: auto;}
+form.viewevents table td { vertical-align: bottom; width: 50%; /*background-color: #DBE1ED; padding: 3px; */}
